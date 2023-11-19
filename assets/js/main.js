@@ -22,6 +22,7 @@ boton.addEventListener("click", function() {
 for (var i = 0; i < enlaces.length; i++) {
     enlaces[i].addEventListener("click", function() {
         menu.classList.toggle("abierto");
+        icono.className = "fa-solid fa-bars-staggered";
     });
 }
 
